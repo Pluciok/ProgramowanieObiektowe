@@ -9,7 +9,7 @@ public abstract class Shape
     protected int Y { get; set; }  
 
 
-    protected Shape(int x, int y)
+    public Shape(int x, int y)
     {
 
             X = x;
@@ -17,7 +17,7 @@ public abstract class Shape
 
     }
 
-    protected abstract double Calc();
+    public abstract double Calc();
 
 }
 

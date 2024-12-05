@@ -9,7 +9,7 @@ namespace Lab4
     internal class Square : Shape
     {
         public Square(int x): base(x,x) { }
-        protected override double Calc()
+        public override double Calc()
         {
             return X * X;
         }
