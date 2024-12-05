@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramowanieObiektowe", "ProgramowanieObiektowe\ProgramowanieObiektowe.csproj", "{41F4E489-E93E-428E-B03D-B8B945B243BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProgramowanieObiektowe", "ProgramowanieObiektowe\ProgramowanieObiektowe.csproj", "{41F4E489-E93E-428E-B03D-B8B945B243BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{5A451AF6-F053-406E-B48C-1069FC0D5F19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab2", "Lab2\Lab2.csproj", "{5A451AF6-F053-406E-B48C-1069FC0D5F19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4", "Lab4\Lab4.csproj", "{22342CC3-2129-4986-A200-DBE5F91D14FA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +23,15 @@ Global
 		{5A451AF6-F053-406E-B48C-1069FC0D5F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A451AF6-F053-406E-B48C-1069FC0D5F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A451AF6-F053-406E-B48C-1069FC0D5F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22342CC3-2129-4986-A200-DBE5F91D14FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22342CC3-2129-4986-A200-DBE5F91D14FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22342CC3-2129-4986-A200-DBE5F91D14FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22342CC3-2129-4986-A200-DBE5F91D14FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4414A32E-DE47-4A41-945E-435371285C48}
 	EndGlobalSection
 EndGlobal
